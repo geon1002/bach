@@ -1,1 +1,7 @@
-build/**
+for sobichia in range(1,1000):
+    for sochia in range(2, sobichia-1):
+         if sobichia % sochia==0:
+              print(sobichia, "ko phai la so nt") 
+         else:
+             print(sobichia, "la so nt")
+             
